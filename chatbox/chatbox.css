@@ -10,6 +10,11 @@ body{
     background: transparent;
     font-family: "Fuzzy Bubbles", sans-serif;
 }
+.wrapper{
+    width: 34rem;
+    height: 28rem;
+    position: relative;
+}
 
 #chat-box{
     background: var(--light-orange);
@@ -21,6 +26,7 @@ body{
     box-shadow: 10px 10px var(--secondary-color), 10px 10px 0 3px var(--shadow-orange);
     overflow-y: auto;
     scrollbar-width: none;
+    position: relative;
 }
 
 .username{
@@ -45,7 +51,6 @@ body{
 }
 
 .message-body{
-    /* font-size: 1rem; */
     margin: 0;
     text-shadow: 1px 1px 2px #F37100;
     animation: fadeInUp 0.4s ease;
@@ -54,6 +59,13 @@ body{
 .emote {
   height: 28px;
   vertical-align: middle;
+}
+
+.cat-bot{
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+  z-index: 1;
 }
 
 @keyframes fadeInUp {
