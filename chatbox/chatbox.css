@@ -22,7 +22,7 @@ body{
     width: 25rem;
     height: 25rem;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
     box-shadow: 10px 10px var(--secondary-color), 10px 10px 0 3px var(--shadow-orange);
     overflow-y: auto;
     scrollbar-width: none;
@@ -64,7 +64,7 @@ body{
 .cat-bot{
   position: absolute;
   bottom: -20px;
-  right: 0;
+  right: -42px;
   z-index: 1;
 }
 
