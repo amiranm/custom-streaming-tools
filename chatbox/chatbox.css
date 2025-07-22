@@ -1,0 +1,69 @@
+
+:root{
+    --primary-color: #F3500A;
+    --secondary-color: #F37100;
+    --light-orange: #FFFBDC;
+    --shade-orange: #FFD3A5;
+    --shadow-orange: #D92200;
+}
+body{
+    margin: 0;
+    background: transparent;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+#chat-box{
+    background: var(--light-orange);
+    border: var(--shadow-orange) 3px solid;
+    width: 25rem;
+    height: 37.5rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 10px 10px var(--secondary-color), 10px 10px 0 3px var(--shadow-orange);
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.username{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--secondary-color);
+    -webkit-text-stroke: 1px;
+    background: var(--shade-orange);
+    width: fit-content;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.user-icon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.message-body{
+    /* font-size: 1rem; */
+    margin: 0;
+    text-shadow: 1px 1px 2px #F37100;
+    animation: fadeInUp 0.4s ease;
+}
+
+.emote {
+  height: 28px;
+  vertical-align: middle;
+}
+
+@keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
