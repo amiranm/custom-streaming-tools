@@ -15,7 +15,7 @@ body{
     background: var(--light-orange);
     border: var(--shadow-orange) 3px solid;
     width: 25rem;
-    height: 37.5rem;
+    height: 25rem;
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: 10px 10px var(--secondary-color), 10px 10px 0 3px var(--shadow-orange);
