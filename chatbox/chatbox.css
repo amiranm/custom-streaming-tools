@@ -1,10 +1,4 @@
-:root{
-    --primary-color: #F3500A;
-    --secondary-color: #F37100;
-    --light-orange: #FFFBDC;
-    --shade-orange: #FFD3A5;
-    --shadow-orange: #D92200;
-}
+
 body{
     margin: 0;
     background: transparent;
